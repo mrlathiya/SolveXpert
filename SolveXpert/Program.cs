@@ -7,6 +7,18 @@ namespace SolveXpert
         static void main(String[] args)
         {
 
+            string? choice;
+            while(true)
+            {
+                choice = menuOption();
+                if(choice == "1" )
+                {
+
+                }
+            }
+
+
+
             //------My First Solution
 
 
