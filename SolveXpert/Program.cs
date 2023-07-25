@@ -18,22 +18,22 @@ namespace SolveXpert
                     ///------ArmStrong Number
                     Console.Clear();
                     Console.WriteLine("Enter a Number");
-                    int input1, sum = 0, temp, cube, temp2;
-                    input1 = Convert.ToInt32(Console.ReadLine());
-                    temp2 = input1;
-                    while(temp2 > 0 )
+                    int input, sum = 0, cube, temp;
+                    input = Convert.ToInt32(Console.ReadLine());
+                    temp = input;
+                    while(temp > 0 )
                     {
-                        temp = temp2%10;
-                        sum = sum + (temp * temp * temp);
-                        temp2 = temp2 / 10;
+                        cube = temp % 10;
+                        sum = sum + (cube * cube * cube);
+                        temp = temp / 10;
                     }
-                    if (sum==input1)
+                    if (sum==input)
                     {
-                        Console.WriteLine("is Armstrong");
+                        Console.WriteLine("Entered Number is Armstrong");
                     }
                     else
                     {
-                        Console.WriteLine("not Armstrong");
+                        Console.WriteLine("Entered Number is not Armstrong");
                     }
                 }
             }
