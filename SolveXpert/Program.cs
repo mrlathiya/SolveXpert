@@ -36,6 +36,12 @@ namespace SolveXpert
                         Console.WriteLine("Entered Number is not Armstrong");
                     }
                 }
+
+                //------My Second Solution
+                else if (choice == "2" ) { 
+                
+                
+                }
             }
 
 
