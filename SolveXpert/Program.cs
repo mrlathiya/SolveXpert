@@ -38,9 +38,9 @@ namespace SolveXpert
                 }
 
                 //------My Second Solution
-                else if (choice == "2" ) { 
-                
-                
+                else if (choice == "2" ) {
+                    ///------Reverse a String
+                    
                 }
             }
 
