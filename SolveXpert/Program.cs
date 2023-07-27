@@ -40,7 +40,17 @@ namespace SolveXpert
                 //------My Second Solution
                 else if (choice == "2" ) {
                     ///------Reverse a String
-                    
+                    Console.Clear();
+                    Console.WriteLine("Enter a String to be reversed.");
+                    string abc = Console.ReadLine();
+                    char[] abcq = abc.ToCharArray();
+                    string reverse = "";
+                    for (int i = abc.Length - 1; i >= 0; i--)
+                    {
+                        char c = abcq[i];
+                        reverse = reverse + c;
+                    }
+                    Console.WriteLine(reverse.ToString());
                 }
             }
 
