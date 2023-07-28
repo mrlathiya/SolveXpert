@@ -64,7 +64,7 @@ namespace SolveXpert
 
             Console.WriteLine("1: Armstrong Program");
             Console.WriteLine("2: Reverse a String");
-            Console.WriteLine("3");
+            Console.WriteLine("3: Palindrome Checker");
             Console.WriteLine("4");
             Console.WriteLine("5");
             Console.WriteLine("6");
