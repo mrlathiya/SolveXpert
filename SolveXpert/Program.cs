@@ -60,6 +60,21 @@ namespace SolveXpert
                     Console.Clear();
                     Console.WriteLine("Enter a String to be check for Palindrome Pattern");
                     string abc = Console.ReadLine();
+                    char[] chararr = abc.ToCharArray();
+                    string palindrome = "";
+                    for(int i = abc.Length-1; i>=0; i--)
+                    {
+                        char c = chararr[i];
+                        palindrome = palindrome + c;
+                    }
+                    if(palindrome==abc)
+                    {
+                        Console.WriteLine("Entered String is Palindrome pattern");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Entered String is not Palindrome pattern");
+                    }
                 }
             }
 
