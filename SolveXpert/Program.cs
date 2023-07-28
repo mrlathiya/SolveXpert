@@ -52,6 +52,15 @@ namespace SolveXpert
                     }
                     Console.WriteLine(reverse.ToString());
                 }
+
+                //------My Third Solution
+                else if (choice == "3")
+                {
+                    //------Palindrome checker
+                    Console.Clear();
+                    Console.WriteLine("Enter a String to be check for Palindrome Pattern");
+                    string abc = Console.ReadLine();
+                }
             }
 
 
