@@ -76,6 +76,12 @@ namespace SolveXpert
                         Console.WriteLine("Entered String is not Palindrome pattern");
                     }
                 }
+
+                //------My forth Solution
+                else if("choice==4")
+                {
+                    
+                }
             }
 
 
