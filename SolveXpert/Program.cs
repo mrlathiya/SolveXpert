@@ -76,6 +76,21 @@ namespace SolveXpert
                         Console.WriteLine("Entered String is not Palindrome pattern");
                     }
                 }
+
+                //------My Forth Solution
+                else if (choice == "4")
+                {
+                    //------Remove duplicates from the array
+                    Console.Clear();
+                    Console.WriteLine("Enter elments to include in the array");
+                    string abc = Console.ReadLine();
+                    string[] temparr = new string[] { };
+                    for(int i = 0; i<abc.Length; i++)
+                    {
+                        
+                    }
+                    Console.WriteLine(temparr.ToString());
+                }
             }
 
 
