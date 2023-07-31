@@ -90,6 +90,10 @@ namespace SolveXpert
                         
                     }
                     Console.WriteLine(temparr.ToString());
+                //------My forth Solution
+                else if("choice==4")
+                {
+                    
                 }
             }
 
