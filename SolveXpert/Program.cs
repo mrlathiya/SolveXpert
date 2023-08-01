@@ -13,7 +13,7 @@ namespace SolveXpert
                 choice = menuOption();
 
                 //------My First Solution
-                if (choice == "1" )
+                if (choice == "1")
                 {
                     ///------ArmStrong Number
                     Console.Clear();
@@ -21,13 +21,13 @@ namespace SolveXpert
                     int input, sum = 0, cube, temp;
                     input = Convert.ToInt32(Console.ReadLine());
                     temp = input;
-                    while(temp > 0 )
+                    while (temp > 0)
                     {
                         cube = temp % 10;
                         sum = sum + (cube * cube * cube);
                         temp = temp / 10;
                     }
-                    if (sum==input)
+                    if (sum == input)
                     {
                         Console.WriteLine("Entered Number is Armstrong");
                     }
@@ -38,7 +38,8 @@ namespace SolveXpert
                 }
 
                 //------My Second Solution
-                else if (choice == "2" ) {
+                else if (choice == "2")
+                {
                     ///------Reverse a String
                     Console.Clear();
                     Console.WriteLine("Enter a String to be reversed.");
@@ -62,12 +63,12 @@ namespace SolveXpert
                     string abc = Console.ReadLine();
                     char[] chararr = abc.ToCharArray();
                     string palindrome = "";
-                    for(int i = abc.Length-1; i>=0; i--)
+                    for (int i = abc.Length - 1; i >= 0; i--)
                     {
                         char c = chararr[i];
                         palindrome = palindrome + c;
                     }
-                    if(palindrome==abc)
+                    if (palindrome == abc)
                     {
                         Console.WriteLine("Entered String is Palindrome pattern");
                     }
@@ -85,16 +86,13 @@ namespace SolveXpert
                     Console.WriteLine("Enter elments to include in the array");
                     string abc = Console.ReadLine();
                     string[] temparr = new string[] { };
-                    for(int i = 0; i<abc.Length; i++)
+                    for (int i = 0; i < abc.Length; i++)
                     {
-                        
+
                     }
                     Console.WriteLine(temparr.ToString());
-                //------My forth Solution
-                else if("choice==4")
-                {
-                    
                 }
+                
             }
 
 
