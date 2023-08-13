@@ -86,10 +86,6 @@ namespace SolveXpert
                     Console.WriteLine("Enter elments to include in the array");
                     string abc = Console.ReadLine();
                     string[] temparr = new string[] { };
-                    for (int i = 0; i < abc.Length; i++)
-                    {
-
-                    }
                     Console.WriteLine(temparr.ToString());
                 }
                 
